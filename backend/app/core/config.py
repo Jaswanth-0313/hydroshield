@@ -17,6 +17,24 @@ MODELS_DIR.mkdir(parents=True, exist_ok=True)
 APP_TITLE = "Dam Break Hydrodynamic Inundation & Emergency Decision Support"
 APP_VERSION = "1.0.0"
 API_PREFIX = "/api"
+APP_ENV = os.getenv("APP_ENV", "development")
+HOST = os.getenv("FASTAPI_HOST", "0.0.0.0")
+PORT = int(os.getenv("PORT") or os.getenv("FASTAPI_PORT") or "8000")
+FRONTEND_URL = os.getenv("FRONTEND_URL", "http://localhost:5173")
+
+
+def _parse_csv(value: str | None):
+    if not value:
+        return []
+    return [item.strip() for item in value.split(",") if item.strip()]
+
+
+DEFAULT_ALLOWED_ORIGINS = [
+    FRONTEND_URL,
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+]
+CORS_ORIGINS = _parse_csv(os.getenv("CORS_ORIGINS")) or DEFAULT_ALLOWED_ORIGINS
 
 # Default Physical / Hydrodynamic Constants
 GRAVITY = 9.81  # m/s^2

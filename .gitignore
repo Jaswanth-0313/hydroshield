@@ -8,6 +8,11 @@ venv/
 env/
 .pytest_cache/
 
+# Environment files
+.env
+.env.*
+!.env.example
+
 # Node
 node_modules/
 frontend/dist/

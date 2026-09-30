@@ -2,23 +2,24 @@
 FastAPI Main Application Entry Point
 SIH Dam Break Inundation Modeling & Emergency Decision Support Platform
 """
-from fastapi import FastAPI
-from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 
-from app.core.config import APP_TITLE, APP_VERSION, API_PREFIX
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+
+from app.api.ai_model import router as ai_router
 from app.api.dams import router as dams_router
+from app.api.evacuation import router as evacuation_router
+from app.api.hydrodynamic import router as hydrodynamic_router
+from app.api.model_comparison import router as model_comp_router
+from app.api.risk import router as risk_router
 from app.api.scenarios import router as scenarios_router
 from app.api.simulations import router as simulations_router
-from app.api.risk import router as risk_router
-from app.api.evacuation import router as evacuation_router
-from app.api.model_comparison import router as model_comp_router
 from app.api.validation import router as validation_router
-from app.api.ai_model import router as ai_router
-from app.api.hydrodynamic import router as hydrodynamic_router
-
+from app.core.config import APP_ENV, APP_TITLE, APP_VERSION, API_PREFIX, CORS_ORIGINS, HOST, PORT
 from app.gis.datasets import load_dam_by_id, load_scenario_presets
 from app.hydrodynamics.demo_engine import DemoSimulationAdapter
+
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -33,23 +34,24 @@ async def lifespan(app: FastAPI):
             dam_data=default_dam,
             scenario_params=med_scenario,
             duration_min=180,
-            time_step_min=5
+            time_step_min=5,
         )
         print(f"[READY] Pre-loaded baseline simulation: {summary.simulation_id} ({summary.scenario_name})")
     yield
     print("[SHUTDOWN] Shutting down Hydrodynamic Service.")
 
+
 app = FastAPI(
     title=APP_TITLE,
     version=APP_VERSION,
     description="Comprehensive hydrodynamic modeling, GIS flood inundation, risk classification, and evacuation decision support platform for Dam Break disasters.",
-    lifespan=lifespan
+    lifespan=lifespan,
 )
 
-# Configure CORS for React frontend
+# Configure CORS for React frontend while keeping local development flexible.
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=CORS_ORIGINS,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -66,6 +68,7 @@ app.include_router(validation_router, prefix=API_PREFIX)
 app.include_router(ai_router, prefix=API_PREFIX)
 app.include_router(hydrodynamic_router, prefix=API_PREFIX)
 
+
 @app.get("/")
 def root():
     return {
@@ -73,13 +76,26 @@ def root():
         "version": APP_VERSION,
         "status": "OPERATIONAL",
         "docs_url": "/docs",
-        "api_prefix": API_PREFIX
+        "api_prefix": API_PREFIX,
+        "environment": APP_ENV,
     }
 
-@app.get("/api/health")
+
+@app.get("/health")
 def health_check():
+    return {
+        "status": "ok",
+        "service": "HYDROSHIELD",
+        "environment": APP_ENV,
+    }
+
+
+@app.get("/api/health")
+def api_health_check():
     return {"status": "HEALTHY", "engine": "Hydrodynamic 2D Solver", "ai_model": "Random Forest Loaded"}
+
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("app.main:app", host="0.0.0.0", port=8000, reload=True)
+
+    uvicorn.run("app.main:app", host=HOST, port=PORT, reload=APP_ENV == "development")

@@ -2,23 +2,30 @@ services:
   - type: web
     name: hydroshield-backend
     runtime: python
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "uvicorn app.main:app --host 0.0.0.0 --port $PORT"
-    repo: https://github.com/yourusername/hydroshield  # Replace with your repo
+    repo: https://github.com/Jaswanth-0313/hydroshield
     branch: main
-    healthCheckPath: /api/health
+    plan: free
+    buildCommand: "cd backend && pip install -r requirements.txt"
+    startCommand: "cd backend && uvicorn app.main:app --host 0.0.0.0 --port $PORT"
+    healthCheckPath: /health
     envVars:
-      - key: FASTAPI_ENV
+      - key: APP_ENV
         value: production
+      - key: FRONTEND_URL
+        value: https://your-frontend-domain.example
       - key: CORS_ORIGINS
-        value: $FRONTEND_URL
+        value: https://your-frontend-domain.example
       - key: PORT
         value: 8000
 
   - type: static
     name: hydroshield-frontend
-    staticPublishPath: dist
-    buildCommand: "npm install && npm run build"
+    repo: https://github.com/Jaswanth-0313/hydroshield
+    branch: main
+    staticPublishPath: frontend/dist
+    buildCommand: "cd frontend && npm install && npm run build"
     envVars:
       - key: VITE_API_BASE_URL
-        value: $BACKEND_URL/api
+        value: https://your-backend-domain.example/api
+      - key: VITE_APP_ENV
+        value: production

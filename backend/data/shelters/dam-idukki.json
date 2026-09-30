@@ -1,0 +1,91 @@
+[
+  {
+    "id": "sh-idk-01",
+    "name": "Idukki District Collectorate Disaster Shelter",
+    "capacity": 2500,
+    "current_occupancy": 0,
+    "elevation_m": 750.0,
+    "coordinates": {
+      "lat": 9.845,
+      "lng": 76.985
+    },
+    "facilities": [
+      "Medical Bay",
+      "Satellite Comms",
+      "Emergency Food Stock",
+      "Helipad Access",
+      "Backup Generator"
+    ],
+    "contact_phone": "+91-4862-233111"
+  },
+  {
+    "id": "sh-idk-02",
+    "name": "St. George Higher Secondary School Hilltop Relief Camp",
+    "capacity": 1800,
+    "current_occupancy": 0,
+    "elevation_m": 710.0,
+    "coordinates": {
+      "lat": 9.865,
+      "lng": 76.975
+    },
+    "facilities": [
+      "Clean Water Tank",
+      "Kitchen Facilities",
+      "First Aid Unit",
+      "Solar Power"
+    ],
+    "contact_phone": "+91-4862-234222"
+  },
+  {
+    "id": "sh-idk-03",
+    "name": "Karimban High Ridge Community Hall",
+    "capacity": 1200,
+    "current_occupancy": 0,
+    "elevation_m": 680.0,
+    "coordinates": {
+      "lat": 9.875,
+      "lng": 76.968
+    },
+    "facilities": [
+      "Kitchen",
+      "Water Storage",
+      "Ambulance Station"
+    ],
+    "contact_phone": "+91-4862-235333"
+  },
+  {
+    "id": "sh-idk-04",
+    "name": "Thadiyampadu Upper Primary School Safe Center",
+    "capacity": 1500,
+    "current_occupancy": 0,
+    "elevation_m": 640.0,
+    "coordinates": {
+      "lat": 9.89,
+      "lng": 76.955
+    },
+    "facilities": [
+      "Sanitation",
+      "Emergency Ration Depot",
+      "Wireless Station"
+    ],
+    "contact_phone": "+91-4862-236444"
+  },
+  {
+    "id": "sh-idk-05",
+    "name": "Neriamangalam Government College Relief Hub",
+    "capacity": 3000,
+    "current_occupancy": 0,
+    "elevation_m": 290.0,
+    "coordinates": {
+      "lat": 9.955,
+      "lng": 76.845
+    },
+    "facilities": [
+      "Surgical Ward",
+      "NDRF Base Camp",
+      "Large Parking",
+      "High-capacity Food Store"
+    ],
+    "contact_phone": "+91-4862-237555"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "inf-thr-01",
+    "name": "Koteshwar Hydro Spillway & Bridge",
+    "category": "bridge",
+    "coordinates": {
+      "lat": 30.319,
+      "lng": 78.496
+    },
+    "distance_from_dam_km": 6.6,
+    "elevation_m": 575.0,
+    "criticality": "CRITICAL"
+  },
+  {
+    "id": "inf-thr-02",
+    "name": "Devprayag Historic Sangam Suspension Bridge",
+    "category": "bridge",
+    "coordinates": {
+      "lat": 30.1455,
+      "lng": 78.5975
+    },
+    "distance_from_dam_km": 28.6,
+    "elevation_m": 458.0,
+    "criticality": "CRITICAL"
+  },
+  {
+    "id": "inf-thr-03",
+    "name": "AIIMS Apex Hospital Rishikesh",
+    "category": "hospital",
+    "coordinates": {
+      "lat": 30.076,
+      "lng": 78.286
+    },
+    "distance_from_dam_km": 55.0,
+    "elevation_m": 380.0,
+    "criticality": "CRITICAL"
+  },
+  {
+    "id": "inf-thr-04",
+    "name": "Rishikesh Ram Jhula Suspension Bridge",
+    "category": "bridge",
+    "coordinates": {
+      "lat": 30.122,
+      "lng": 78.315
+    },
+    "distance_from_dam_km": 52.0,
+    "elevation_m": 348.0,
+    "criticality": "HIGH"
+  }
+]

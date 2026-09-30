@@ -1,0 +1,32 @@
+[
+  {
+    "id": "sh-mlp-01",
+    "name": "Vandiperiyar High Ridge Community Relief Camp",
+    "capacity": 3000,
+    "elevation_m": 920.0,
+    "coordinates": {
+      "lat": 9.585,
+      "lng": 77.095
+    },
+    "facilities": [
+      "Emergency Kitchen",
+      "Clean Water Tank",
+      "Solar Generator"
+    ]
+  },
+  {
+    "id": "sh-mlp-02",
+    "name": "Upputhara Higher Secondary School Relief Center",
+    "capacity": 2200,
+    "elevation_m": 840.0,
+    "coordinates": {
+      "lat": 9.655,
+      "lng": 77.005
+    },
+    "facilities": [
+      "Medical Bay",
+      "Satellite Phone",
+      "Food Stock"
+    ]
+  }
+]

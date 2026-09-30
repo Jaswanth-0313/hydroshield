@@ -1,0 +1,89 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "road-thr-01",
+        "name": "NH-58 River Highway (Gorge Valley)",
+        "node_from": "vil-thr-02",
+        "node_to": "vil-thr-03",
+        "distance_km": 13.5,
+        "avg_elevation_m": 485.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.53,
+            30.25
+          ],
+          [
+            78.56,
+            30.19
+          ],
+          [
+            78.598,
+            30.146
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "road-thr-02",
+        "name": "Devprayag High Ridge Escape Route",
+        "node_from": "vil-thr-03",
+        "node_to": "sh-thr-02",
+        "distance_km": 1.9,
+        "avg_elevation_m": 670.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.598,
+            30.146
+          ],
+          [
+            78.601,
+            30.15
+          ],
+          [
+            78.605,
+            30.155
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "road-thr-03",
+        "name": "Rishikesh AIIMS Escape Arterial",
+        "node_from": "vil-thr-06",
+        "node_to": "sh-thr-03",
+        "distance_km": 2.2,
+        "avg_elevation_m": 382.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.29,
+            30.086
+          ],
+          [
+            78.288,
+            30.08
+          ],
+          [
+            78.285,
+            30.075
+          ]
+        ]
+      }
+    }
+  ]
+}

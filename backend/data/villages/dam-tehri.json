@@ -1,0 +1,80 @@
+[
+  {
+    "id": "vil-thr-01",
+    "name": "Koteshwar Hydro Colony",
+    "population": 3800,
+    "vulnerable_population_count": 920,
+    "distance_from_dam_km": 6.5,
+    "elevation_m": 580.0,
+    "coordinates": {
+      "lat": 30.32,
+      "lng": 78.495
+    },
+    "description": "Downstream regulatory dam colony and construction township."
+  },
+  {
+    "id": "vil-thr-02",
+    "name": "Maletha Valley Settlement",
+    "population": 6200,
+    "vulnerable_population_count": 1650,
+    "distance_from_dam_km": 15.0,
+    "elevation_m": 510.0,
+    "coordinates": {
+      "lat": 30.25,
+      "lng": 78.53
+    },
+    "description": "Agricultural valley floor settlement on NH-58."
+  },
+  {
+    "id": "vil-thr-03",
+    "name": "Devprayag Confluence Town",
+    "population": 9400,
+    "vulnerable_population_count": 2800,
+    "distance_from_dam_km": 28.5,
+    "elevation_m": 460.0,
+    "coordinates": {
+      "lat": 30.146,
+      "lng": 78.598
+    },
+    "description": "Historic holy pilgrimage town situated directly at confluence."
+  },
+  {
+    "id": "vil-thr-04",
+    "name": "Kaudiyala Riverside Hamlet",
+    "population": 2100,
+    "vulnerable_population_count": 520,
+    "distance_from_dam_km": 36.0,
+    "elevation_m": 410.0,
+    "coordinates": {
+      "lat": 30.12,
+      "lng": 78.54
+    },
+    "description": "Eco-tourism and rafting hub located in narrow mountain gorge."
+  },
+  {
+    "id": "vil-thr-05",
+    "name": "Shivpuri Gorge Settlement",
+    "population": 4800,
+    "vulnerable_population_count": 1200,
+    "distance_from_dam_km": 46.0,
+    "elevation_m": 375.0,
+    "coordinates": {
+      "lat": 30.135,
+      "lng": 78.42
+    },
+    "description": "Gorge bottleneck area with high velocity surge risk."
+  },
+  {
+    "id": "vil-thr-06",
+    "name": "Rishikesh Holy Ghats & Town",
+    "population": 38500,
+    "vulnerable_population_count": 9800,
+    "distance_from_dam_km": 54.0,
+    "elevation_m": 340.0,
+    "coordinates": {
+      "lat": 30.086,
+      "lng": 78.29
+    },
+    "description": "Major urban population center where Himalayan river debouches into plains."
+  }
+]

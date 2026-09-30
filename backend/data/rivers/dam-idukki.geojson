@@ -1,0 +1,70 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Periyar - Cheruthoni Downstream River Channel",
+        "dam_id": "dam-idukki",
+        "length_km": 45.0,
+        "avg_width_m": 85.0,
+        "slope": 0.0035,
+        "bed_elevation_dam_m": 610.0,
+        "bed_elevation_outlet_m": 25.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.9722,
+            9.8497
+          ],
+          [
+            76.968,
+            9.855
+          ],
+          [
+            76.955,
+            9.868
+          ],
+          [
+            76.942,
+            9.879
+          ],
+          [
+            76.925,
+            9.892
+          ],
+          [
+            76.905,
+            9.905
+          ],
+          [
+            76.885,
+            9.918
+          ],
+          [
+            76.86,
+            9.932
+          ],
+          [
+            76.835,
+            9.945
+          ],
+          [
+            76.8,
+            9.958
+          ],
+          [
+            76.76,
+            9.97
+          ],
+          [
+            76.71,
+            9.98
+          ]
+        ]
+      }
+    }
+  ]
+}

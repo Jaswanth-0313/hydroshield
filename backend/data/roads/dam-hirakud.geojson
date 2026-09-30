@@ -1,0 +1,89 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "road-hrk-01",
+        "name": "Burla - Sambalpur River Road",
+        "node_from": "vil-hrk-01",
+        "node_to": "vil-hrk-02",
+        "distance_km": 6.5,
+        "avg_elevation_m": 154.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            83.89,
+            21.545
+          ],
+          [
+            83.91,
+            21.53
+          ],
+          [
+            83.92,
+            21.515
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "road-hrk-02",
+        "name": "Burla University Ridge Evacuation Road",
+        "node_from": "vil-hrk-01",
+        "node_to": "sh-hrk-01",
+        "distance_km": 1.8,
+        "avg_elevation_m": 182.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            83.89,
+            21.545
+          ],
+          [
+            83.885,
+            21.55
+          ],
+          [
+            83.88,
+            21.555
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "road-hrk-03",
+        "name": "Sambalpur High Ground Sports Route",
+        "node_from": "vil-hrk-02",
+        "node_to": "sh-hrk-02",
+        "distance_km": 2.4,
+        "avg_elevation_m": 175.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            83.92,
+            21.515
+          ],
+          [
+            83.93,
+            21.51
+          ],
+          [
+            83.94,
+            21.505
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "id": "vil-mlp-01",
+    "name": "Vallakadavu Settlement",
+    "population": 3400,
+    "vulnerable_population_count": 890,
+    "distance_from_dam_km": 4.5,
+    "elevation_m": 820.0,
+    "coordinates": {
+      "lat": 9.555,
+      "lng": 77.105
+    },
+    "description": "First populated hamlet directly 4.5 km below Mullaperiyar dam spillway."
+  },
+  {
+    "id": "vil-mlp-02",
+    "name": "Vandiperiyar Town",
+    "population": 14200,
+    "vulnerable_population_count": 3900,
+    "distance_from_dam_km": 9.2,
+    "elevation_m": 780.0,
+    "coordinates": {
+      "lat": 9.575,
+      "lng": 77.085
+    },
+    "description": "Major commercial plantation township on NH-183 (Kottayam-Kumily road)."
+  },
+  {
+    "id": "vil-mlp-03",
+    "name": "Upputhara Valley Community",
+    "population": 8900,
+    "vulnerable_population_count": 2400,
+    "distance_from_dam_km": 19.5,
+    "elevation_m": 740.0,
+    "coordinates": {
+      "lat": 9.645,
+      "lng": 76.995
+    },
+    "description": "Low-lying spice agricultural valley prone to rapid inundation."
+  },
+  {
+    "id": "vil-mlp-04",
+    "name": "Ayyappancoil Inflow Zone",
+    "population": 6500,
+    "vulnerable_population_count": 1750,
+    "distance_from_dam_km": 28.0,
+    "elevation_m": 715.0,
+    "coordinates": {
+      "lat": 9.685,
+      "lng": 76.965
+    },
+    "description": "Direct inflow entry zone into backwaters of Idukki reservoir."
+  }
+]

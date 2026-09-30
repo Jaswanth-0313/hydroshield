@@ -1,0 +1,50 @@
+[
+  {
+    "id": "inf-hrk-01",
+    "name": "Hirakud Hydroelectric Powerhouse No 1",
+    "category": "power_station",
+    "coordinates": {
+      "lat": 21.565,
+      "lng": 83.875
+    },
+    "distance_from_dam_km": 0.8,
+    "elevation_m": 150.0,
+    "criticality": "CRITICAL"
+  },
+  {
+    "id": "inf-hrk-02",
+    "name": "VIMSAR Multi-Speciality Hospital Burla",
+    "category": "hospital",
+    "coordinates": {
+      "lat": 21.55,
+      "lng": 83.885
+    },
+    "distance_from_dam_km": 3.8,
+    "elevation_m": 172.0,
+    "criticality": "CRITICAL"
+  },
+  {
+    "id": "inf-hrk-03",
+    "name": "Sambalpur Mahanadi Rail Bridge",
+    "category": "bridge",
+    "coordinates": {
+      "lat": 21.512,
+      "lng": 83.918
+    },
+    "distance_from_dam_km": 8.5,
+    "elevation_m": 155.0,
+    "criticality": "CRITICAL"
+  },
+  {
+    "id": "inf-hrk-04",
+    "name": "Sambalpur District Hospital",
+    "category": "hospital",
+    "coordinates": {
+      "lat": 21.51,
+      "lng": 83.93
+    },
+    "distance_from_dam_km": 9.0,
+    "elevation_m": 162.0,
+    "criticality": "HIGH"
+  }
+]

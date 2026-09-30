@@ -1,0 +1,38 @@
+[
+  {
+    "id": "scenario-small",
+    "name": "Small Breach (Piping Failure / Partial Sluice Gate Collapse)",
+    "type": "small",
+    "breach_width_m": 35.0,
+    "breach_formation_time_hr": 1.5,
+    "breach_depth_m": 15.0,
+    "reservoir_water_level_m": 728.5,
+    "initial_river_discharge_cumecs": 250.0,
+    "failure_mode": "piping",
+    "description": "Gradual internal piping erosion through dam body or partial spillway gate failure. Controlled hydrograph with slower rising limb (~90 mins formation)."
+  },
+  {
+    "id": "scenario-medium",
+    "name": "Medium Breach (Overtopping / Partial Crest Breach)",
+    "type": "medium",
+    "breach_width_m": 85.0,
+    "breach_formation_time_hr": 0.8,
+    "breach_depth_m": 35.0,
+    "reservoir_water_level_m": 732.4,
+    "initial_river_discharge_cumecs": 500.0,
+    "failure_mode": "overtopping",
+    "description": "Standard PMF (Probable Maximum Flood) overtopping scenario leading to progressive breach development within 48 minutes."
+  },
+  {
+    "id": "scenario-large",
+    "name": "Large Catastrophic Breach (Full Monolith Collapse / Seismic Failure)",
+    "type": "large",
+    "breach_width_m": 180.0,
+    "breach_formation_time_hr": 0.25,
+    "breach_depth_m": 65.0,
+    "reservoir_water_level_m": 734.5,
+    "initial_river_discharge_cumecs": 1000.0,
+    "failure_mode": "catastrophic_collapse",
+    "description": "Sudden near-instantaneous structural collapse under extreme seismic or extreme headwater conditions, generating high-amplitude hydrodynamic shockwaves."
+  }
+]

@@ -1,0 +1,275 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "road-idk-01",
+        "name": "Cheruthoni - Karimban Valley River Road (SH-33)",
+        "type": "state_highway",
+        "node_from": "vil-idk-01",
+        "node_to": "vil-idk-03",
+        "distance_km": 3.6,
+        "avg_elevation_m": 605.0,
+        "max_flood_depth_tolerance_m": 0.3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.968,
+            9.855
+          ],
+          [
+            76.961,
+            9.86
+          ],
+          [
+            76.955,
+            9.868
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "road-idk-02",
+        "name": "Cheruthoni - Collectorate Hill Escape Route",
+        "type": "arterial_hill_road",
+        "node_from": "vil-idk-01",
+        "node_to": "sh-idk-01",
+        "distance_km": 2.2,
+        "avg_elevation_m": 710.0,
+        "max_flood_depth_tolerance_m": 0.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.968,
+            9.855
+          ],
+          [
+            76.974,
+            9.85
+          ],
+          [
+            76.985,
+            9.845
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "road-idk-03",
+        "name": "Cheruthoni - St George Hill Link",
+        "type": "local_paved",
+        "node_from": "vil-idk-01",
+        "node_to": "sh-idk-02",
+        "distance_km": 1.8,
+        "avg_elevation_m": 690.0,
+        "max_flood_depth_tolerance_m": 0.4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.968,
+            9.855
+          ],
+          [
+            76.972,
+            9.86
+          ],
+          [
+            76.975,
+            9.865
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "road-idk-04",
+        "name": "Karimban Ridge Evacuation Ascent",
+        "type": "local_paved",
+        "node_from": "vil-idk-03",
+        "node_to": "sh-idk-03",
+        "distance_km": 2.1,
+        "avg_elevation_m": 665.0,
+        "max_flood_depth_tolerance_m": 0.4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.955,
+            9.868
+          ],
+          [
+            76.962,
+            9.871
+          ],
+          [
+            76.968,
+            9.875
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "road-idk-05",
+        "name": "Karimban - Thadiyampadu Valley Highway",
+        "type": "state_highway",
+        "node_from": "vil-idk-03",
+        "node_to": "vil-idk-04",
+        "distance_km": 3.1,
+        "avg_elevation_m": 575.0,
+        "max_flood_depth_tolerance_m": 0.3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.955,
+            9.868
+          ],
+          [
+            76.948,
+            9.874
+          ],
+          [
+            76.942,
+            9.879
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "road-idk-06",
+        "name": "Thadiyampadu Upper Safe Link",
+        "type": "local_paved",
+        "node_from": "vil-idk-04",
+        "node_to": "sh-idk-04",
+        "distance_km": 1.7,
+        "avg_elevation_m": 630.0,
+        "max_flood_depth_tolerance_m": 0.4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.942,
+            9.879
+          ],
+          [
+            76.949,
+            9.885
+          ],
+          [
+            76.955,
+            9.89
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "road-idk-07",
+        "name": "Thadiyampadu - Chelachuvadu Highway",
+        "type": "state_highway",
+        "node_from": "vil-idk-04",
+        "node_to": "vil-idk-05",
+        "distance_km": 3.8,
+        "avg_elevation_m": 530.0,
+        "max_flood_depth_tolerance_m": 0.3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.942,
+            9.879
+          ],
+          [
+            76.933,
+            9.886
+          ],
+          [
+            76.925,
+            9.892
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "road-idk-08",
+        "name": "Chelachuvadu - Panamkutty Link",
+        "type": "state_highway",
+        "node_from": "vil-idk-05",
+        "node_to": "vil-idk-07",
+        "distance_km": 7.4,
+        "avg_elevation_m": 450.0,
+        "max_flood_depth_tolerance_m": 0.3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.925,
+            9.892
+          ],
+          [
+            76.905,
+            9.905
+          ],
+          [
+            76.885,
+            9.918
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "road-idk-09",
+        "name": "Panamkutty - Neriamangalam High Arterial",
+        "type": "national_highway_nh85",
+        "node_from": "vil-idk-07",
+        "node_to": "sh-idk-05",
+        "distance_km": 14.2,
+        "avg_elevation_m": 310.0,
+        "max_flood_depth_tolerance_m": 0.4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.885,
+            9.918
+          ],
+          [
+            76.86,
+            9.935
+          ],
+          [
+            76.845,
+            9.955
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bhagirathi - Upper Ganga Downstream Channel",
+        "dam_id": "dam-tehri",
+        "length_km": 60.0,
+        "avg_width_m": 120.0,
+        "slope": 0.0085
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.48,
+            30.378
+          ],
+          [
+            78.495,
+            30.32
+          ],
+          [
+            78.53,
+            30.25
+          ],
+          [
+            78.598,
+            30.146
+          ],
+          [
+            78.54,
+            30.12
+          ],
+          [
+            78.42,
+            30.135
+          ],
+          [
+            78.32,
+            30.115
+          ],
+          [
+            78.29,
+            30.086
+          ],
+          [
+            78.16,
+            29.945
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "road-mlp-01",
+        "name": "Vallakadavu - Vandiperiyar Valley Link",
+        "node_from": "vil-mlp-01",
+        "node_to": "vil-mlp-02",
+        "distance_km": 5.2,
+        "avg_elevation_m": 795.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.105,
+            9.555
+          ],
+          [
+            77.095,
+            9.565
+          ],
+          [
+            77.085,
+            9.575
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "road-mlp-02",
+        "name": "Vandiperiyar High Ridge Escape Road",
+        "node_from": "vil-mlp-02",
+        "node_to": "sh-mlp-01",
+        "distance_km": 1.8,
+        "avg_elevation_m": 905.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.085,
+            9.575
+          ],
+          [
+            77.09,
+            9.58
+          ],
+          [
+            77.095,
+            9.585
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "road-mlp-03",
+        "name": "Upputhara Ridge Escape Road",
+        "node_from": "vil-mlp-03",
+        "node_to": "sh-mlp-02",
+        "distance_km": 1.6,
+        "avg_elevation_m": 830.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.995,
+            9.645
+          ],
+          [
+            77.0,
+            9.65
+          ],
+          [
+            77.005,
+            9.655
+          ]
+        ]
+      }
+    }
+  ]
+}

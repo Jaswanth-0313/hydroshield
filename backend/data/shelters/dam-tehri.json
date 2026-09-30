@@ -1,0 +1,47 @@
+[
+  {
+    "id": "sh-thr-01",
+    "name": "New Tehri Hilltop Administrative Complex",
+    "capacity": 4500,
+    "elevation_m": 1750.0,
+    "coordinates": {
+      "lat": 30.392,
+      "lng": 78.435
+    },
+    "facilities": [
+      "Helipad",
+      "Emergency Food Stock",
+      "Hospital Complex"
+    ]
+  },
+  {
+    "id": "sh-thr-02",
+    "name": "Devprayag High Ridge Inter-College",
+    "capacity": 2500,
+    "elevation_m": 680.0,
+    "coordinates": {
+      "lat": 30.155,
+      "lng": 78.605
+    },
+    "facilities": [
+      "Water Tank",
+      "Wireless Base",
+      "Medical Unit"
+    ]
+  },
+  {
+    "id": "sh-thr-03",
+    "name": "AIIMS Rishikesh High Ground Complex",
+    "capacity": 6000,
+    "elevation_m": 385.0,
+    "coordinates": {
+      "lat": 30.075,
+      "lng": 78.285
+    },
+    "facilities": [
+      "Apex Trauma Hospital",
+      "Helipad",
+      "NDRF Outpost"
+    ]
+  }
+]

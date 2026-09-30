@@ -1,0 +1,46 @@
+[
+  {
+    "id": "sh-hrk-01",
+    "name": "VIMSAR Medical College Cyclone/Flood Shelter",
+    "capacity": 3500,
+    "elevation_m": 185.0,
+    "coordinates": {
+      "lat": 21.555,
+      "lng": 83.88
+    },
+    "facilities": [
+      "Medical Complex",
+      "Power Backup",
+      "Food Storage"
+    ]
+  },
+  {
+    "id": "sh-hrk-02",
+    "name": "Sambalpur District Sports Complex Relief Center",
+    "capacity": 5000,
+    "elevation_m": 178.0,
+    "coordinates": {
+      "lat": 21.505,
+      "lng": 83.94
+    },
+    "facilities": [
+      "Indoor Stadium",
+      "Emergency Comms",
+      "Helipad"
+    ]
+  },
+  {
+    "id": "sh-hrk-03",
+    "name": "Chiplima High School Shelter",
+    "capacity": 2000,
+    "elevation_m": 160.0,
+    "coordinates": {
+      "lat": 21.49,
+      "lng": 83.97
+    },
+    "facilities": [
+      "Water Tank",
+      "Kitchen"
+    ]
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "id": "vil-idk-01",
+    "name": "Cheruthoni Town & Market",
+    "population": 6850,
+    "vulnerable_population_count": 1820,
+    "distance_from_dam_km": 1.2,
+    "elevation_m": 625.0,
+    "coordinates": {
+      "lat": 9.855,
+      "lng": 76.968
+    },
+    "description": "Commercial town directly below Cheruthoni spillway. Immediate impact zone."
+  },
+  {
+    "id": "vil-idk-02",
+    "name": "Vazhathoppu Colony",
+    "population": 4200,
+    "vulnerable_population_count": 1150,
+    "distance_from_dam_km": 2.8,
+    "elevation_m": 618.0,
+    "coordinates": {
+      "lat": 9.86,
+      "lng": 76.961
+    },
+    "description": "Dense hillside valley settlement with school and local market."
+  },
+  {
+    "id": "vil-idk-03",
+    "name": "Karimban Valley",
+    "population": 5400,
+    "vulnerable_population_count": 1460,
+    "distance_from_dam_km": 4.5,
+    "elevation_m": 590.0,
+    "coordinates": {
+      "lat": 9.868,
+      "lng": 76.955
+    },
+    "description": "Agricultural valley on sharp river meander prone to deep inundation."
+  },
+  {
+    "id": "vil-idk-04",
+    "name": "Thadiyampadu Reach",
+    "population": 4900,
+    "vulnerable_population_count": 1320,
+    "distance_from_dam_km": 7.2,
+    "elevation_m": 560.0,
+    "coordinates": {
+      "lat": 9.879,
+      "lng": 76.942
+    },
+    "description": "Low-lying rubber plantation settlement with vital bridge connection."
+  },
+  {
+    "id": "vil-idk-05",
+    "name": "Chelachuvadu Settlement",
+    "population": 3800,
+    "vulnerable_population_count": 980,
+    "distance_from_dam_km": 10.5,
+    "elevation_m": 510.0,
+    "coordinates": {
+      "lat": 9.892,
+      "lng": 76.925
+    },
+    "description": "River crossing point with residential cluster near SH-33."
+  },
+  {
+    "id": "vil-idk-06",
+    "name": "Keerithodu Village",
+    "population": 3100,
+    "vulnerable_population_count": 810,
+    "distance_from_dam_km": 13.8,
+    "elevation_m": 475.0,
+    "coordinates": {
+      "lat": 9.899,
+      "lng": 76.912
+    },
+    "description": "Terraced farming hamlet along river bank."
+  },
+  {
+    "id": "vil-idk-07",
+    "name": "Panamkutty Confluence",
+    "population": 4600,
+    "vulnerable_population_count": 1200,
+    "distance_from_dam_km": 17.5,
+    "elevation_m": 420.0,
+    "coordinates": {
+      "lat": 9.918,
+      "lng": 76.885
+    },
+    "description": "Confluence point where Cheruthoni river merges into main Periyar basin."
+  },
+  {
+    "id": "vil-idk-08",
+    "name": "Lower Periyar Hamlet",
+    "population": 2900,
+    "vulnerable_population_count": 750,
+    "distance_from_dam_km": 22.0,
+    "elevation_m": 350.0,
+    "coordinates": {
+      "lat": 9.932,
+      "lng": 76.86
+    },
+    "description": "Downstream dam catchment area and power generation colony."
+  },
+  {
+    "id": "vil-idk-09",
+    "name": "Neriamangalam Town",
+    "population": 11200,
+    "vulnerable_population_count": 3100,
+    "distance_from_dam_km": 30.5,
+    "elevation_m": 180.0,
+    "coordinates": {
+      "lat": 9.945,
+      "lng": 76.835
+    },
+    "description": "Gateway town to high ranges, heavy road traffic and historic Raninirap Bridge."
+  },
+  {
+    "id": "vil-idk-10",
+    "name": "Bhoothathankettu Zone",
+    "population": 8500,
+    "vulnerable_population_count": 2300,
+    "distance_from_dam_km": 38.0,
+    "elevation_m": 75.0,
+    "coordinates": {
+      "lat": 9.958,
+      "lng": 76.8
+    },
+    "description": "Barrage area and major irrigation canal headworks."
+  }
+]

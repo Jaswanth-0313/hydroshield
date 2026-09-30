@@ -1,0 +1,134 @@
+[
+  {
+    "id": "dam-idukki",
+    "name": "Idukki Dam & Cheruthoni Reservoir",
+    "river": "Periyar River",
+    "state": "Kerala",
+    "district": "Idukki",
+    "location": {
+      "lat": 9.8497,
+      "lng": 76.9722
+    },
+    "current_water_level_m": 728.5,
+    "reservoir_info": {
+      "capacity_mcm": 1996.0,
+      "full_reservoir_level_m": 732.4,
+      "crest_level_m": 735.0,
+      "catchment_area_sqkm": 649.3,
+      "dam_height_m": 168.9,
+      "dam_length_m": 365.8,
+      "dam_type": "Double Curvature Arch & Concrete Gravity (Cheruthoni)"
+    },
+    "study_area_bounds": [
+      [9.7500, 76.8500],
+      [9.9800, 77.1000]
+    ],
+    "downstream_reach_length_km": 45.0,
+    "river_slope": 0.0035,
+    "manning_n": 0.038,
+    "historical_flood_events": [
+      "2018 Great Kerala Floods (All 5 Cheruthoni shutters opened, peak discharge 1400 cumecs)",
+      "2021 Post-Monsoon Flash Inflow Event"
+    ],
+    "description": "High-hazard category concrete arch dam on Periyar River. A breach scenario would generate extreme hydrodynamic shockwaves impacting Cheruthoni, Karimban, Thadiyampadu, and downstream populated valley settlements."
+  },
+  {
+    "id": "dam-hirakud",
+    "name": "Hirakud Dam",
+    "river": "Mahanadi River",
+    "state": "Odisha",
+    "district": "Sambalpur",
+    "location": {
+      "lat": 21.5700,
+      "lng": 83.8700
+    },
+    "current_water_level_m": 190.2,
+    "reservoir_info": {
+      "capacity_mcm": 5896.0,
+      "full_reservoir_level_m": 192.0,
+      "crest_level_m": 195.0,
+      "catchment_area_sqkm": 83400.0,
+      "dam_height_m": 60.96,
+      "dam_length_m": 4800.0,
+      "dam_type": "Composite Earth and Masonry Dam"
+    },
+    "study_area_bounds": [
+      [21.4000, 83.7500],
+      [21.6500, 84.1500]
+    ],
+    "downstream_reach_length_km": 50.0,
+    "river_slope": 0.0012,
+    "manning_n": 0.032,
+    "historical_flood_events": [
+      "1982 Mahanadi Catastrophic Basin Flood",
+      "2011 Mahanadi River High Discharge Event"
+    ],
+    "description": "One of the world's longest earthen dams. Downstream reach flows through Sambalpur and Burla educational and industrial corridor."
+  },
+  {
+    "id": "dam-tehri",
+    "name": "Tehri Dam",
+    "river": "Bhagirathi River",
+    "state": "Uttarakhand",
+    "district": "Tehri Garhwal",
+    "location": {
+      "lat": 30.3780,
+      "lng": 78.4800
+    },
+    "current_water_level_m": 825.0,
+    "reservoir_info": {
+      "capacity_mcm": 3540.0,
+      "full_reservoir_level_m": 830.0,
+      "crest_level_m": 839.5,
+      "catchment_area_sqkm": 7511.0,
+      "dam_height_m": 260.5,
+      "dam_length_m": 575.0,
+      "dam_type": "Earth and Rock-fill Dam"
+    },
+    "study_area_bounds": [
+      [30.1000, 78.2000],
+      [30.4500, 78.6000]
+    ],
+    "downstream_reach_length_km": 60.0,
+    "river_slope": 0.0085,
+    "manning_n": 0.045,
+    "historical_flood_events": [
+      "2013 Kedarnath/Alaknanda Flash Flood Surge",
+      "2021 Chamoli GLOF Surge"
+    ],
+    "description": "Tallest dam in India located in a high-seismic Himalayan zone (Zone V). Steep gorge topography produces hyper-velocity dam-break surges."
+  },
+  {
+    "id": "dam-mullaperiyar",
+    "name": "Mullaperiyar Dam",
+    "river": "Periyar River",
+    "state": "Kerala",
+    "district": "Idukki",
+    "location": {
+      "lat": 9.5280,
+      "lng": 77.1436
+    },
+    "current_water_level_m": 41.5,
+    "reservoir_info": {
+      "capacity_mcm": 443.0,
+      "full_reservoir_level_m": 43.3,
+      "crest_level_m": 53.6,
+      "catchment_area_sqkm": 624.0,
+      "dam_height_m": 53.6,
+      "dam_length_m": 366.0,
+      "dam_type": "Limestone-Surkhi Masonry Gravity Dam"
+    },
+    "study_area_bounds": [
+      [9.4500, 76.9500],
+      [9.7000, 77.2500]
+    ],
+    "downstream_reach_length_km": 35.0,
+    "river_slope": 0.0042,
+    "manning_n": 0.040,
+    "historical_flood_events": [
+      "1924 Great 99 Flood of Kerala",
+      "2018 Periyar High Flood"
+    ],
+    "description": "Historic masonry dam built in 1895. Downstream cascade flows into Vallakadavu, Vandiperiyar, and directly enters Idukki Reservoir."
+  }
+]

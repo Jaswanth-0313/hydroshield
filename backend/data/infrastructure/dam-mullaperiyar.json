@@ -1,0 +1,38 @@
+[
+  {
+    "id": "inf-mlp-01",
+    "name": "Vallakadavu Cause-way Bridge",
+    "category": "bridge",
+    "coordinates": {
+      "lat": 9.554,
+      "lng": 77.104
+    },
+    "distance_from_dam_km": 4.4,
+    "elevation_m": 815.0,
+    "criticality": "CRITICAL"
+  },
+  {
+    "id": "inf-mlp-02",
+    "name": "Vandiperiyar Main Periyar Bridge (NH-183)",
+    "category": "bridge",
+    "coordinates": {
+      "lat": 9.574,
+      "lng": 77.084
+    },
+    "distance_from_dam_km": 9.0,
+    "elevation_m": 776.0,
+    "criticality": "CRITICAL"
+  },
+  {
+    "id": "inf-mlp-03",
+    "name": "Vandiperiyar Community Health Centre",
+    "category": "hospital",
+    "coordinates": {
+      "lat": 9.578,
+      "lng": 77.087
+    },
+    "distance_from_dam_km": 9.5,
+    "elevation_m": 790.0,
+    "criticality": "HIGH"
+  }
+]

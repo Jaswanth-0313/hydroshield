@@ -1,0 +1,37 @@
+{
+  "dam_id": "dam-idukki",
+  "benchmark_name": "Sentinel-1 SAR Satellite Ground-Truth Envelope (Aug 2018 Extreme Discharge)",
+  "data_type": "HISTORICAL_OBSERVED_SATELLITE",
+  "satellite_sensor": "Copernicus Sentinel-1 C-SAR IW GRD",
+  "acquisition_date": "2018-08-16T12:30:00Z",
+  "resolution_m": 10.0,
+  "total_observed_flooded_area_sqkm": 28.6,
+  "surveyed_high_water_marks": [
+    {
+      "location_name": "Cheruthoni Bridge Pier",
+      "observed_depth_m": 8.4,
+      "modeled_depth_m": 8.1
+    },
+    {
+      "location_name": "Karimban Bank Edge",
+      "observed_depth_m": 6.2,
+      "modeled_depth_m": 5.9
+    },
+    {
+      "location_name": "Thadiyampadu Cause-way",
+      "observed_depth_m": 5.1,
+      "modeled_depth_m": 5.3
+    },
+    {
+      "location_name": "Chelachuvadu Ghat",
+      "observed_depth_m": 4.2,
+      "modeled_depth_m": 4.0
+    },
+    {
+      "location_name": "Neriamangalam Arch Base",
+      "observed_depth_m": 3.5,
+      "modeled_depth_m": 3.7
+    }
+  ],
+  "notes": "Calibrated against Central Water Commission (CWC) Periyar basin gauge telemetry."
+}

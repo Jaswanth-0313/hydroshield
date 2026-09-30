@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Periyar - Upper Catchment Reach",
+        "dam_id": "dam-mullaperiyar",
+        "length_km": 35.0,
+        "avg_width_m": 65.0,
+        "slope": 0.0042
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.1436,
+            9.528
+          ],
+          [
+            77.105,
+            9.555
+          ],
+          [
+            77.085,
+            9.575
+          ],
+          [
+            77.045,
+            9.605
+          ],
+          [
+            76.995,
+            9.645
+          ],
+          [
+            76.965,
+            9.685
+          ],
+          [
+            76.9722,
+            9.8497
+          ]
+        ]
+      }
+    }
+  ]
+}

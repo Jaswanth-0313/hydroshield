@@ -1,0 +1,119 @@
+[
+  {
+    "id": "inf-idk-01",
+    "name": "Cheruthoni Main Suspension Bridge",
+    "category": "bridge",
+    "coordinates": {
+      "lat": 9.854,
+      "lng": 76.9675
+    },
+    "distance_from_dam_km": 1.1,
+    "elevation_m": 612.0,
+    "criticality": "HIGH",
+    "description": "Crucial bridge connecting Painavu and Thodupuzha road across Cheruthoni river."
+  },
+  {
+    "id": "inf-idk-02",
+    "name": "Idukki District Medical Hospital (Painavu)",
+    "category": "hospital",
+    "coordinates": {
+      "lat": 9.848,
+      "lng": 76.982
+    },
+    "distance_from_dam_km": 2.5,
+    "elevation_m": 725.0,
+    "criticality": "CRITICAL",
+    "description": "350-bed apex referral hospital with emergency trauma center."
+  },
+  {
+    "id": "inf-idk-03",
+    "name": "Cheruthoni Primary Health Centre",
+    "category": "hospital",
+    "coordinates": {
+      "lat": 9.857,
+      "lng": 76.966
+    },
+    "distance_from_dam_km": 1.5,
+    "elevation_m": 616.0,
+    "criticality": "HIGH",
+    "description": "Local medical clinic in valley floor directly vulnerable to flood stage."
+  },
+  {
+    "id": "inf-idk-04",
+    "name": "St. Mary's Higher Secondary School Cheruthoni",
+    "category": "school",
+    "coordinates": {
+      "lat": 9.856,
+      "lng": 76.969
+    },
+    "distance_from_dam_km": 1.3,
+    "elevation_m": 622.0,
+    "criticality": "MODERATE",
+    "description": "School with 1400 enrolled students."
+  },
+  {
+    "id": "inf-idk-05",
+    "name": "Karimban Bridge",
+    "category": "bridge",
+    "coordinates": {
+      "lat": 9.867,
+      "lng": 76.954
+    },
+    "distance_from_dam_km": 4.4,
+    "elevation_m": 585.0,
+    "criticality": "CRITICAL",
+    "description": "Key arterial bridge on SH-33."
+  },
+  {
+    "id": "inf-idk-06",
+    "name": "Thadiyampadu Sub-Station (KSEB 110kV)",
+    "category": "power_station",
+    "coordinates": {
+      "lat": 9.878,
+      "lng": 76.944
+    },
+    "distance_from_dam_km": 7.0,
+    "elevation_m": 565.0,
+    "criticality": "CRITICAL",
+    "description": "Major regional electricity transmission node."
+  },
+  {
+    "id": "inf-idk-07",
+    "name": "Chelachuvadu Bridge",
+    "category": "bridge",
+    "coordinates": {
+      "lat": 9.891,
+      "lng": 76.926
+    },
+    "distance_from_dam_km": 10.3,
+    "elevation_m": 508.0,
+    "criticality": "HIGH",
+    "description": "Span bridge crossing Periyar river tributary."
+  },
+  {
+    "id": "inf-idk-08",
+    "name": "Panamkutty Police Station & Fire Unit",
+    "category": "emergency_service",
+    "coordinates": {
+      "lat": 9.917,
+      "lng": 76.887
+    },
+    "distance_from_dam_km": 17.3,
+    "elevation_m": 435.0,
+    "criticality": "HIGH",
+    "description": "Emergency command post for downstream rescues."
+  },
+  {
+    "id": "inf-idk-09",
+    "name": "Neriamangalam Historic Arch Bridge",
+    "category": "bridge",
+    "coordinates": {
+      "lat": 9.944,
+      "lng": 76.836
+    },
+    "distance_from_dam_km": 30.2,
+    "elevation_m": 175.0,
+    "criticality": "CRITICAL",
+    "description": "Historic masonry arch bridge connecting Ernakulam and Idukki districts."
+  }
+]

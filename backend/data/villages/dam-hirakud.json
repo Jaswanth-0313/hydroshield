@@ -1,0 +1,62 @@
+[
+  {
+    "id": "vil-hrk-01",
+    "name": "Burla Colony & University Area",
+    "population": 18500,
+    "vulnerable_population_count": 4200,
+    "distance_from_dam_km": 3.5,
+    "elevation_m": 165.0,
+    "coordinates": {
+      "lat": 21.545,
+      "lng": 83.89
+    }
+  },
+  {
+    "id": "vil-hrk-02",
+    "name": "Sambalpur Riverfront Ghats",
+    "population": 32000,
+    "vulnerable_population_count": 8900,
+    "distance_from_dam_km": 8.2,
+    "elevation_m": 152.0,
+    "coordinates": {
+      "lat": 21.515,
+      "lng": 83.92
+    }
+  },
+  {
+    "id": "vil-hrk-03",
+    "name": "Chiplima Power House Area",
+    "population": 9200,
+    "vulnerable_population_count": 2100,
+    "distance_from_dam_km": 14.5,
+    "elevation_m": 142.0,
+    "coordinates": {
+      "lat": 21.485,
+      "lng": 83.955
+    }
+  },
+  {
+    "id": "vil-hrk-04",
+    "name": "Dhankauda Settlement",
+    "population": 7600,
+    "vulnerable_population_count": 1800,
+    "distance_from_dam_km": 21.0,
+    "elevation_m": 138.0,
+    "coordinates": {
+      "lat": 21.455,
+      "lng": 83.995
+    }
+  },
+  {
+    "id": "vil-hrk-05",
+    "name": "Maneswar Agricultural Belt",
+    "population": 12400,
+    "vulnerable_population_count": 3400,
+    "distance_from_dam_km": 28.5,
+    "elevation_m": 130.0,
+    "coordinates": {
+      "lat": 21.425,
+      "lng": 84.05
+    }
+  }
+]
